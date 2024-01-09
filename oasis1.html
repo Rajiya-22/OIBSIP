@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: relative;
+        }
+
+        nav {
+            background-color: #2980b9;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1.2em;
+        }
+
+        section {
+            text-align: center;
+            padding: 2em;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2em;
+        }
+
+        .feature-card {
+            flex: 1;
+            padding: 1.5em;
+            border-radius: 8px;
+            margin: 0 1em;
+            background-color: #ecf0f1;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .feature-card:hover {
+            background-color: #d4e6f1;
+        }
+
+        .feature-title {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .social-icons {
+            margin-top: auto;
+            text-align: center;
+            padding: 2em;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 1em;
+            font-size: 1.5em;
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #2070a0;
+        }
+
+        footer {
+            color: #777;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to our awesome website!</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+        <a href="#">Signup</a>
+    </nav>
+
+    <section>
+        <p>This is a simple landing page. Feel free to customize it to showcase your skills and creativity.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor ex perferendis hic consectetur pariatur minus vitae culpa quis! Atque, incidunt!</p>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3 class="feature-title">Feature 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3 class="feature-title">Feature 2</h3>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3 class="feature-title">Feature 3</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        </div>
+    </section>
+
+    <div class="social-icons">
+        <a href="https://api.whatsapp.com/send?phone=123456789" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/yourpage" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/yourhandle" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <footer>
+        &copy; 2024 Your Company. All rights reserved.
+    </footer>
+
+</body>
+</html>
